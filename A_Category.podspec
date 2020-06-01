@@ -10,6 +10,8 @@
 # version.test = 0
 # version.gray = 0
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

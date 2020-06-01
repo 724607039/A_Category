@@ -21,7 +21,7 @@
 		E46289D624852955006FCA60 /* A_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46289D524852955006FCA60 /* A_CategoryTests.m */; };
 		E46289E124852955006FCA60 /* A_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46289E024852955006FCA60 /* A_CategoryUITests.m */; };
 		E46289F324852AE4006FCA60 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46289F224852AE3006FCA60 /* MYViewController.m */; };
-		E46289F924852CE0006FCA60 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = E46289F724852CE0006FCA60 /* CTMediator+A.m */; };
+		E46289FC24852E8F006FCA60 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = E46289FB24852E8F006FCA60 /* CTMediator+A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		E46289E224852955006FCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46289F124852AE3006FCA60 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYViewController.h; path = Source/MYViewController.h; sourceTree = "<group>"; };
 		E46289F224852AE3006FCA60 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYViewController.m; path = Source/MYViewController.m; sourceTree = "<group>"; };
-		E46289F724852CE0006FCA60 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "Extension/CTMediator+A.m"; sourceTree = "<group>"; };
-		E46289F824852CE0006FCA60 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "Extension/CTMediator+A.h"; sourceTree = "<group>"; };
+		E46289FA24852E8F006FCA60 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "Source/CTMediator+A.h"; sourceTree = "<group>"; };
+		E46289FB24852E8F006FCA60 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "Source/CTMediator+A.m"; sourceTree = "<group>"; };
 		F21229D31600068DEA4AE750 /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +111,6 @@
 		AF00204EE653310FA71C13F5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E46289F824852CE0006FCA60 /* CTMediator+A.h */,
-				E46289F724852CE0006FCA60 /* CTMediator+A.m */,
 				02E00827F51892945B6D0ACA /* A_Category_Extension.swift */,
 			);
 			name = Extension;
@@ -121,6 +119,8 @@
 		AFC616200301F46AED13BD67 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E46289FA24852E8F006FCA60 /* CTMediator+A.h */,
+				E46289FB24852E8F006FCA60 /* CTMediator+A.m */,
 				E46289F124852AE3006FCA60 /* MYViewController.h */,
 				E46289F224852AE3006FCA60 /* MYViewController.m */,
 				F4E72C18EA2ABDEC3958CCC4 /* Target */,
@@ -384,7 +384,7 @@
 			files = (
 				E46289C124852952006FCA60 /* ViewController.m in Sources */,
 				E46289BB24852952006FCA60 /* AppDelegate.m in Sources */,
-				E46289F924852CE0006FCA60 /* CTMediator+A.m in Sources */,
+				E46289FC24852E8F006FCA60 /* CTMediator+A.m in Sources */,
 				E46289F324852AE4006FCA60 /* MYViewController.m in Sources */,
 				E46289CC24852955006FCA60 /* main.m in Sources */,
 				E46289BE24852952006FCA60 /* SceneDelegate.m in Sources */,
